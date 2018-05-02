@@ -52,7 +52,7 @@ physics.addBody( badCharacter, "dynamic", {
     } )
 
 local theCharacter = display.newImage( "./assets/sprites/character.png" )
-theCharacter.x = display.contentCenterX - 200
+theCharacter.x = display.contentCenterX - 150
 theCharacter.y = display.contentCenterY
 theCharacter.id = "the character"
 physics.addBody( theCharacter, "dynamic", { 
